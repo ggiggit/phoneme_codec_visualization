@@ -93,7 +93,10 @@ python draw.py
 
 Below are examples of the code execution results:
 
-<p align="center">
-  <img src="figures/co_occurrence_heatmap.png" alt="Co-occurrence Heatmap" height="350px" />
-  <img src="figures/tsne_visualization.png" alt="t-SNE Visualization" height="350px" />
-</p>
+### Co-occurrence Heatmap
+
+![Co-occurrence Heatmap](figures/co_occurrence_heatmap.png)
+
+### t-SNE Visualization
+
+![t-SNE Visualization](figures/tsne_visualization.png)

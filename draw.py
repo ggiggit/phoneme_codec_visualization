@@ -119,8 +119,8 @@ def build_cooccurrence_matrix(all_codes, audio_files, textgrid_dir, phoneme_to_i
                 continue
             start_time = interval.minTime
             end_time = interval.maxTime
-            start_idx = int(np.floor(start_time / time_per_step))
-            end_idx = int(np.ceil(end_time / time_per_step))
+            start_idx = int(np.ceil(start_time / time_per_step))
+            end_idx = int(np.floor(end_time / time_per_step))
             start_idx = max(start_idx, 0)
             end_idx = min(end_idx, num_codes - 1)
             phoneme_codes = codes[start_idx:end_idx + 1]
